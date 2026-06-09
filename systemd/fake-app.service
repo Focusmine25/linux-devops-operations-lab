@@ -1,0 +1,10 @@
+[Unit]
+Description=Fake DevOps Application
+After=network.target
+
+[Service]
+ExecStart=/root/linux-devops-operations-lab/scripts/fake_app.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

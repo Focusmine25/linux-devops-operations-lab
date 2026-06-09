@@ -1,0 +1,17 @@
+# Logs
+logs/*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.pid
+
+# VS Code settings
+.vscode/
+
+# Linux logs
+*.log.*
